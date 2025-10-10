@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stanley Mosso</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stanley Mosso | Portfólio</title>
+  <style>
+    /* Estilos gerais */
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #07161E;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 4rem 1rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    h2 {
+      border-left: 5px solid #07161E;
+      padding-left: 10px;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .project {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+      background-color: #fff;
+      border-top: 1px solid #eee;
+    }
+  </style>
 </head>
 <body>
-    <h1>Olá, sou o Stanley!</h1>
-    <p>Bem-vindo ao meu portfólio.</p>
+
+  <header>
+    <h1>Stanley Mosso</h1>
+    <p>Data Scientist | Consultor | Criador de Soluções com IA</p>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou apaixonado por tecnologia, dados e inovação. 
+      Atualmente atuo com projetos que envolvem análise de dados e inteligência artificial, 
+      buscando sempre transformar informações em decisões estratégicas. 
+      Este espaço é meu portfólio, onde compartilho experiências e projetos que desenvolvo ao longo da minha jornada.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+
+    <div class="project">
+      <h3>Dashboard Financeiro</h3>
+      <p>Projeto criado para acompanhar despesas pessoais de forma interativa, utilizando Python, Streamlit e integração com planilhas do Google.</p>
+    </div>
+
+    <div class="project">
+      <h3>Modelo de Previsão de Vendas</h3>
+      <p>Modelo de regressão desenvolvido com base em dados do Kaggle, alcançando R² de 0.97 após ajustes e normalização de variáveis.</p>
+    </div>
+
+    <div class="project">
+      <h3>Assistente de IA para Atendimento</h3>
+      <p>Proposta de IA integrada ao ecossistema digital da Getnet, com foco em reduzir churn, automatizar processos e melhorar a experiência do cliente.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Stanley Mosso — Todos os direitos reservados</p>
+  </footer>
+
 </body>
 </html>
