@@ -1,168 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Stanley Mosso — Data Scientist</title>
-  <meta name="description" content="Portfólio de Stanley Mosso — Pesquisa aplicada, modelos em produção e consultoria em ciência de dados." />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='80'%3E📈%3C/text%3E%3C/svg%3E">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Stanley Mosso — Data Scientist</title>
+<meta name="description" content="Portfólio de Stanley Mosso — Modelos em produção, pesquisa aplicada e consultoria em ciência de dados." />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script src="https://cdn.jsdelivr.net/npm/countup.js@2.0.8/dist/countUp.min.js"></script>
 </head>
 <body>
-  <a class="skip" href="#main">Pular para o conteúdo</a>
+<header class="header">
+  <div class="wrap">
+    <a class="brand" href="#main"><strong>Stanley</strong> Mosso</a>
+    <nav class="nav">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#publicacoes">Pesquisa</a></li>
+        <li><a class="contact-cta" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-  <header class="header" role="banner">
-    <div class="wrap">
-      <a class="brand" href="#main">
-        <strong>Stanley</strong><span class="brand-last">Mosso</span>
-      </a>
-      <nav class="nav" role="navigation" aria-label="Navegação principal">
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#publicacoes">Pesquisa</a></li>
-          <li><a class="contact-cta" href="#contato">Contato</a></li>
+<main id="main">
+  <section id="inicio" class="hero">
+    <div class="hero-bg"></div>
+    <div class="wrap hero-grid">
+      <div class="hero-content">
+        <p class="eyebrow">Stanley Mosso — Data Scientist</p>
+        <h1 id="typed">Modelos que entregam resultados. Pesquisa que explica o porquê.</h1>
+        <p class="lead">Combino rigor estatístico com produto: modelos em produção, pipelines confiáveis e decisões orientadas por métricas.</p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#projetos">Ver estudos de caso</a>
+          <a class="btn outline" href="#contato">Contato</a>
+        </div>
+
+        <ul class="highlights">
+          <li><span id="clients">0</span>+ clientes analisados</li>
+          <li><span id="conversion">0</span>% aumento de conversão</li>
+          <li><span id="r2">0</span> R² em modelos selecionados</li>
         </ul>
-      </nav>
+      </div>
+
+      <aside class="hero-visual">
+        <div class="card visual-card">
+          <div class="mini-chart" aria-hidden="true"></div>
+          <div class="visual-meta">
+            <div class="meta-item">
+              <div class="meta-num">+10</div>
+              <div class="meta-label">Modelos em produção</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-num">+5</div>
+              <div class="meta-label">Publicações</div>
+            </div>
+          </div>
+        </div>
+      </aside>
     </div>
-  </header>
+  </section>
 
-  <main id="main">
-    <section id="inicio" class="hero">
-      <div class="wrap hero-grid">
-        <div class="hero-content">
-          <p class="eyebrow">Stanley Mosso — Data Scientist</p>
-          <h1>Modelos que entregam resultados. Pesquisa que explica o porquê.</h1>
-          <p class="lead">Combino rigor estatístico com produto: modelos em produção, pipelines confiáveis e decisões orientadas por métrica.</p>
-
-          <div class="hero-actions">
-            <a class="btn primary" href="#projetos">Ver estudos de caso</a>
-            <a class="btn outline" href="#contato">Contrate / Contato</a>
-          </div>
-
-          <ul class="highlights" aria-hidden="false">
-            <li><strong>99k+</strong> clientes analisados</li>
-            <li><strong>15%</strong> aumento de conversão com IA</li>
-            <li><strong>R² 0.97</strong> em modelos selecionados</li>
-          </ul>
-        </div>
-
-        <aside class="hero-visual" aria-hidden="true">
-          <div class="card visual-card">
-            <svg class="chart" viewBox="0 0 200 120" preserveAspectRatio="none" aria-hidden="true">
-              <defs>
-                <linearGradient id="g" x1="0" x2="1">
-                  <stop offset="0%" stop-color="#0B3D91" stop-opacity="0.9"/>
-                  <stop offset="100%" stop-color="#C79B3E" stop-opacity="0.9"/>
-                </linearGradient>
-              </defs>
-              <path d="M0,80 L30,60 L60,40 L90,48 L120,28 L150,36 L180,18 L200,28 L200,120 L0,120 Z" fill="url(#g)"></path>
-            </svg>
-            <div class="visual-meta">
-              <div class="meta-item">
-                <div class="meta-num">+10</div>
-                <div class="meta-label">Modelos em produção</div>
-              </div>
-              <div class="meta-item">
-                <div class="meta-num">+5</div>
-                <div class="meta-label">Publicações</div>
-              </div>
-            </div>
-          </div>
-        </aside>
+  <section id="sobre" class="section">
+    <div class="wrap narrow">
+      <h2>Sobre</h2>
+      <p>Sou especialista em modelagem preditiva, feature engineering e em transformar protótipos em soluções robustas. Trabalho com times de produto para garantir que os modelos tenham impacto mensurável e sejam sustentáveis em produção.</p>
+      <div class="skills">
+        <span>Modelagem Preditiva</span>
+        <span>Feature Engineering</span>
+        <span>MLOps</span>
+        <span>Visualização Executiva</span>
+        <span>Pesquisa Aplicada</span>
       </div>
-    </section>
-
-    <section id="sobre" class="section">
-      <div class="wrap narrow">
-        <h2>Sobre</h2>
-        <p>Sou especialista em modelagem preditiva, feature engineering e em transformar protótipos em soluções robustas. Trabalho com times de produto para garantir que os modelos tenham impacto mensurável e sejam sustentáveis em produção.</p>
-
-        <div class="skills">
-          <span>Modelagem Preditiva</span>
-          <span>Feature Engineering</span>
-          <span>MLOps</span>
-          <span>Visualização Executiva</span>
-          <span>Pesquisa Aplicada</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="projetos" class="section">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Estudos de caso</h2>
-          <p>Seleção de projetos com impacto comprovado e documentação técnica.</p>
-        </div>
-
-        <div class="grid cards">
-          <article class="card case">
-            <div class="card-top"><span class="tag">Regressão</span><span class="tag muted">R² 0.97</span></div>
-            <h3>Previsão de preços — Mercado Imobiliário</h3>
-            <p>Pipeline completo com validação temporal, explicabilidade (SHAP) e deploy em batch + API.</p>
-            <div class="card-actions">
-              <a href="#" class="link">Estudo de caso</a>
-              <a href="#" class="link">GitHub</a>
-            </div>
-          </article>
-
-          <article class="card case">
-            <div class="card-top"><span class="tag">Churn</span><span class="tag muted">-15%</span></div>
-            <h3>Retenção orientada por propensão</h3>
-            <p>Segmentação e orquestração automática que reduziu churn e aumentou LTV.</p>
-            <div class="card-actions">
-              <a href="#" class="link">Estudo de caso</a>
-              <a href="#" class="link">GitHub</a>
-            </div>
-          </article>
-
-          <article class="card case">
-            <div class="card-top"><span class="tag">GenAI</span><span class="tag muted">Produtividade</span></div>
-            <h3>Assistente de dados</h3>
-            <p>RAG com controles de segurança, integrado a BI e automação de relatórios.</p>
-            <div class="card-actions">
-              <a href="#" class="link">Estudo de caso</a>
-              <a href="#" class="link">GitHub</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="publicacoes" class="section">
-      <div class="wrap narrow">
-        <h2>Pesquisa</h2>
-        <ol class="research-list">
-          <li><strong>Feature stores em produção</strong> — práticas e trade-offs para escala.</li>
-          <li><strong>Métricas relevantes</strong> — do R² ao impacto financeiro.</li>
-          <li><strong>GenAI com governança</strong> — guardrails e telemetry.</li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="contato" class="section">
-      <div class="wrap narrow">
-        <h2>Contato</h2>
-        <p>Se você quer discutir consultoria, parceria ou uma palestra, vamos conversar.</p>
-        <form class="contact-form" action="mailto:stanleymp99@hotmail.com" method="POST" enctype="text/plain">
-          <div class="form-grid">
-            <input type="text" name="nome" placeholder="Seu nome" required>
-            <input type="email" name="email" placeholder="Seu e-mail" required>
-            <textarea name="mensagem" rows="6" placeholder="Descrição do projeto / mensagem" required></textarea>
-          </div>
-          <button class="btn primary" type="submit">Enviar mensagem</button>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="wrap foot-grid">
-      <div>© 2025 Stanley Mosso</div>
-      <div class="socials"><a href="#">LinkedIn</a> <a href="#">GitHub</a></div>
     </div>
-  </footer>
+  </section>
+
+  <section id="projetos" class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Estudos de caso</h2>
+        <p>Projetos com impacto comprovado e documentação técnica.</p>
+      </div>
+      <div class="grid cards">
+        <article class="card case glow-card">
+          <div class="card-top"><span class="tag">Regressão</span><span class="tag muted">R² 0.97</span></div>
+          <h3>Previsão de preços — Mercado Imobiliário</h3>
+          <p>Pipeline completo com validação temporal, explicabilidade (SHAP) e deploy em batch + API.</p>
+        </article>
+        <article class="card case glow-card">
+          <div class="card-top"><span class="tag">Churn</span><span class="tag muted">-15%</span></div>
+          <h3>Retenção orientada por propensão</h3>
+          <p>Segmentação e orquestração automática que reduziu churn e aumentou LTV.</p>
+        </article>
+        <article class="card case glow-card">
+          <div class="card-top"><span class="tag">GenAI</span><span class="tag muted">Produtividade</span></div>
+          <h3>Assistente de dados</h3>
+          <p>RAG com controles de segurança, integrado a BI e automação de relatórios.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="publicacoes" class="section">
+    <div class="wrap narrow">
+      <h2>Pesquisa</h2>
+      <ol class="research-list">
+        <li><strong>Feature stores em produção</strong> — práticas e trade-offs para escala.</li>
+        <li><strong>Métricas relevantes</strong> — do R² ao impacto financeiro.</li>
+        <li><strong>GenAI com governança</strong> — guardrails e telemetry.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contato" class="section">
+    <div class="wrap narrow">
+      <h2>Contato</h2>
+      <p>Se você quer discutir consultoria, parceria ou uma palestra, vamos conversar.</p>
+      <form class="contact-form" action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+        <div class="form-grid">
+          <input type="text" name="nome" placeholder="Seu nome" required>
+          <input type="email" name="email" placeholder="Seu e-mail" required>
+          <textarea name="mensagem" rows="6" placeholder="Descrição do projeto / mensagem" required></textarea>
+        </div>
+        <button class="btn primary" type="submit">Enviar mensagem</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-grid">
+    <div>© 2025 Stanley Mosso</div>
+    <div class="socials"><a href="#">LinkedIn</a> <a href="#">GitHub</a></div>
+  </div>
+</footer>
+
+<script>
+// Typing effect
+const typedEl = document.getElementById('typed');
+const text = typedEl.innerText;
+typedEl.innerText = '';
+let i = 0;
+function typeWriter(){if(i<text.length){typedEl.innerText+=text.charAt(i);i++;setTimeout(typeWriter,30);}}
+window.addEventListener('load',typeWriter);
+
+// CountUp animations
+const clients = new CountUp('clients', 99000);
+const conversion = new CountUp('conversion', 15);
+const r2 = new CountUp('r2', 97, {suffix:''});
+window.addEventListener('load',()=>{clients.start();conversion.start();r2.start();});
+
+// Glow on hover cards handled via CSS
+</script>
 
 </body>
 </html>
