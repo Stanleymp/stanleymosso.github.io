@@ -1,217 +1,168 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Stanley Mosso — Data Scientist</title>
-  <meta name="description" content="Portfólio de Stanley Mosso — Data Scientist. Projetos, pesquisa aplicada e impacto em negócios com IA e dados."/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Portfólio de Stanley Mosso — Pesquisa aplicada, modelos em produção e consultoria em ciência de dados." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='80'%3E📈%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-  <a class="skip-to-content" href="#inicio">Pular para o conteúdo</a>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
 
-  <header class="site-header" role="banner" aria-label="Cabeçalho principal">
-    <div class="container header-inner">
-      <div class="brand">
-        <span class="dot"></span>
-        <a href="#inicio" class="brand-name" aria-label="Ir para início">Stanley Mosso</a>
-      </div>
-      <nav class="nav" aria-label="Navegação principal">
+  <header class="header" role="banner">
+    <div class="wrap">
+      <a class="brand" href="#main">
+        <strong>Stanley</strong><span class="brand-last">Mosso</span>
+      </a>
+      <nav class="nav" role="navigation" aria-label="Navegação principal">
         <ul>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#publicacoes">Pesquisa</a></li>
-          <li><a href="#contato" class="chip">Contato</a></li>
+          <li><a class="contact-cta" href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main id="inicio">
-    <!-- HERO -->
-    <section class="section hero" aria-label="Apresentação">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>
-            Construindo <span class="grad">inteligência aplicada</span> que move negócios.
-          </h1>
-          <p class="lede">
-            Data Scientist com foco em impacto: modelagem preditiva, produtos de dados e IA generativa.
-            Métricas antes de modas — rigor técnico, resultados mensuráveis.
-          </p>
-          <div class="hero-ctas">
-            <a href="#projetos" class="btn primary">Ver projetos</a>
-            <a href="#contato" class="btn ghost">Falar comigo</a>
+  <main id="main">
+    <section id="inicio" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Stanley Mosso — Data Scientist</p>
+          <h1>Modelos que entregam resultados. Pesquisa que explica o porquê.</h1>
+          <p class="lead">Combino rigor estatístico com produto: modelos em produção, pipelines confiáveis e decisões orientadas por métrica.</p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projetos">Ver estudos de caso</a>
+            <a class="btn outline" href="#contato">Contrate / Contato</a>
           </div>
-          <ul class="badges" aria-label="Destaques">
-            <li>+10 modelos em produção</li>
-            <li>R² até 0.97 em regressão</li>
-            <li>Churn ↓ 15% com IA</li>
-            <li>Dashboards para C‑level</li>
+
+          <ul class="highlights" aria-hidden="false">
+            <li><strong>99k+</strong> clientes analisados</li>
+            <li><strong>15%</strong> aumento de conversão com IA</li>
+            <li><strong>R² 0.97</strong> em modelos selecionados</li>
           </ul>
         </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="orb orb-1"></div>
-          <div class="orb orb-2"></div>
-          <div class="grid"></div>
-          <div class="avatar">
-            <img src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?q=80&w=640&auto=format&fit=crop" alt="Retrato abstrato representando ciência de dados" loading="lazy">
+
+        <aside class="hero-visual" aria-hidden="true">
+          <div class="card visual-card">
+            <svg class="chart" viewBox="0 0 200 120" preserveAspectRatio="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="g" x1="0" x2="1">
+                  <stop offset="0%" stop-color="#0B3D91" stop-opacity="0.9"/>
+                  <stop offset="100%" stop-color="#C79B3E" stop-opacity="0.9"/>
+                </linearGradient>
+              </defs>
+              <path d="M0,80 L30,60 L60,40 L90,48 L120,28 L150,36 L180,18 L200,28 L200,120 L0,120 Z" fill="url(#g)"></path>
+            </svg>
+            <div class="visual-meta">
+              <div class="meta-item">
+                <div class="meta-num">+10</div>
+                <div class="meta-label">Modelos em produção</div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-num">+5</div>
+                <div class="meta-label">Publicações</div>
+              </div>
+            </div>
           </div>
-        </div>
+        </aside>
       </div>
-      <div class="metrics container" role="list" aria-label="Métricas de impacto">
-        <div class="metric" role="listitem">
-          <div class="kpi">99k+</div><div class="kpi-label">Clientes analisados</div>
-        </div>
-        <div class="metric" role="listitem">
-          <div class="kpi">15%+</div><div class="kpi-label">Conversão com IA</div>
-        </div>
-        <div class="metric" role="listitem">
-          <div class="kpi">R$ 39</div><div class="kpi-label">Ticket médio PF</div>
-        </div>
-        <div class="metric" role="listitem">
-          <div class="kpi">7.5%</div><div class="kpi-label">Churn Open Market</div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="wrap narrow">
+        <h2>Sobre</h2>
+        <p>Sou especialista em modelagem preditiva, feature engineering e em transformar protótipos em soluções robustas. Trabalho com times de produto para garantir que os modelos tenham impacto mensurável e sejam sustentáveis em produção.</p>
+
+        <div class="skills">
+          <span>Modelagem Preditiva</span>
+          <span>Feature Engineering</span>
+          <span>MLOps</span>
+          <span>Visualização Executiva</span>
+          <span>Pesquisa Aplicada</span>
         </div>
       </div>
     </section>
 
-    <!-- SOBRE -->
-    <section id="sobre" class="section about" aria-label="Sobre mim">
-      <div class="container narrow">
-        <h2>Sobre mim</h2>
-        <p>
-          Minha especialidade é transformar dados em alavancas de crescimento. Eu projeto e escalo
-          soluções de <strong>machine learning</strong>, produtos de dados e <strong>IA generativa</strong> com foco em métricas de negócio.
-          Do entendimento do problema ao deploy, conecto rigor estatístico com visão de produto.
-        </p>
-        <div class="pill-row" role="list" aria-label="Competências">
-          <span class="pill" role="listitem">Modelagem Preditiva</span>
-          <span class="pill" role="listitem">Feature Engineering</span>
-          <span class="pill" role="listitem">MLOps</span>
-          <span class="pill" role="listitem">IA Generativa</span>
-          <span class="pill" role="listitem">Visualização Executiva</span>
-          <span class="pill" role="listitem">Automação & Pipelines</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJETOS -->
-    <section id="projetos" class="section projects" aria-label="Projetos e estudos">
-      <div class="container">
+    <section id="projetos" class="section">
+      <div class="wrap">
         <div class="section-head">
-          <h2>Projetos em destaque</h2>
-          <p>Seleção curada com foco em impacto, clareza e replicabilidade.</p>
+          <h2>Estudos de caso</h2>
+          <p>Seleção de projetos com impacto comprovado e documentação técnica.</p>
         </div>
 
-        <div class="cards">
-          <article class="card">
-            <div class="card-top">
-              <span class="tag">Regressão</span>
-              <span class="tag secondary">R² 0.97</span>
-            </div>
-            <h3>Modelo preditivo de preços de imóveis</h3>
-            <p>Pipeline completo (EDA → features → validação → deploy). Acurácia robusta e explicabilidade com SHAP.</p>
+        <div class="grid cards">
+          <article class="card case">
+            <div class="card-top"><span class="tag">Regressão</span><span class="tag muted">R² 0.97</span></div>
+            <h3>Previsão de preços — Mercado Imobiliário</h3>
+            <p>Pipeline completo com validação temporal, explicabilidade (SHAP) e deploy em batch + API.</p>
             <div class="card-actions">
-              <a class="btn tiny" href="#" aria-label="Ver estudo de caso do modelo de preços">Estudo de caso</a>
-              <a class="btn tiny ghost" href="#" aria-label="Abrir repositório no GitHub">GitHub</a>
+              <a href="#" class="link">Estudo de caso</a>
+              <a href="#" class="link">GitHub</a>
             </div>
           </article>
 
-          <article class="card">
-            <div class="card-top">
-              <span class="tag">Churn</span>
-              <span class="tag secondary">‑15%</span>
-            </div>
-            <h3>IA para retenção de clientes</h3>
-            <p>Segmentação, propensão e orquestração de contatos. Redução de churn e aumento de LTV com ações dirigidas.</p>
+          <article class="card case">
+            <div class="card-top"><span class="tag">Churn</span><span class="tag muted">-15%</span></div>
+            <h3>Retenção orientada por propensão</h3>
+            <p>Segmentação e orquestração automática que reduziu churn e aumentou LTV.</p>
             <div class="card-actions">
-              <a class="btn tiny" href="#" aria-label="Ver estudo de caso de churn">Estudo de caso</a>
-              <a class="btn tiny ghost" href="#" aria-label="Abrir repositório no GitHub">GitHub</a>
+              <a href="#" class="link">Estudo de caso</a>
+              <a href="#" class="link">GitHub</a>
             </div>
           </article>
 
-          <article class="card">
-            <div class="card-top">
-              <span class="tag">GenAI</span>
-              <span class="tag secondary">Produtividade</span>
-            </div>
-            <h3>Assistente de dados para time de negócios</h3>
-            <p>RAG, guardrails e telemetria. Redução de chamados em central e ganho de eficiência operacional.</p>
+          <article class="card case">
+            <div class="card-top"><span class="tag">GenAI</span><span class="tag muted">Produtividade</span></div>
+            <h3>Assistente de dados</h3>
+            <p>RAG com controles de segurança, integrado a BI e automação de relatórios.</p>
             <div class="card-actions">
-              <a class="btn tiny" href="#" aria-label="Ver estudo de caso do assistente de dados">Estudo de caso</a>
-              <a class="btn tiny ghost" href="#" aria-label="Abrir repositório no GitHub">GitHub</a>
+              <a href="#" class="link">Estudo de caso</a>
+              <a href="#" class="link">GitHub</a>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- PUBLICAÇÕES / PESQUISA -->
-    <section id="publicacoes" class="section research" aria-label="Pesquisa e publicações">
-      <div class="container">
-        <div class="section-head">
-          <h2>Pesquisa aplicada</h2>
-          <p>Notas técnicas, talks e publicações selecionadas.</p>
-        </div>
-        <ul class="list">
-          <li>
-            <span class="bullet"></span>
-            <div>
-              <h4>Feature Stores e reutilização de variáveis em escala</h4>
-              <p>Boas práticas para times de dados reduzirem tempo‑to‑model e aumento de governança.</p>
-            </div>
-          </li>
-          <li>
-            <span class="bullet"></span>
-            <div>
-              <h4>Métricas que importam: acurácia de vaidade vs. impacto real</h4>
-              <p>Como alinhar métricas estatísticas a objetivos de negócio de forma honesta.</p>
-            </div>
-          </li>
-          <li>
-            <span class="bullet"></span>
-            <div>
-              <h4>GenAI com responsabilidade</h4>
-              <p>Arquiteturas com RAG, guardrails e auditoria para ambientes corporativos.</p>
-            </div>
-          </li>
-        </ul>
+    <section id="publicacoes" class="section">
+      <div class="wrap narrow">
+        <h2>Pesquisa</h2>
+        <ol class="research-list">
+          <li><strong>Feature stores em produção</strong> — práticas e trade-offs para escala.</li>
+          <li><strong>Métricas relevantes</strong> — do R² ao impacto financeiro.</li>
+          <li><strong>GenAI com governança</strong> — guardrails e telemetry.</li>
+        </ol>
       </div>
     </section>
 
-    <!-- CONTATO -->
-    <section id="contato" class="section contact" aria-label="Contato">
-      <div class="container narrow">
-        <h2>Vamos construir algo grande?</h2>
-        <p>Quer discutir um projeto, consultoria ou palestra? Me envie uma mensagem.</p>
-        <form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain" class="contact-form">
-          <label for="nome" class="sr-only">Nome</label>
-          <input id="nome" name="nome" type="text" placeholder="Seu nome" required>
-          <label for="email" class="sr-only">E‑mail</label>
-          <input id="email" name="email" type="email" placeholder="Seu e‑mail" required>
-          <label for="mensagem" class="sr-only">Mensagem</label>
-          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
-          <button type="submit" class="btn primary wide">Enviar</button>
+    <section id="contato" class="section">
+      <div class="wrap narrow">
+        <h2>Contato</h2>
+        <p>Se você quer discutir consultoria, parceria ou uma palestra, vamos conversar.</p>
+        <form class="contact-form" action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+          <div class="form-grid">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="mensagem" rows="6" placeholder="Descrição do projeto / mensagem" required></textarea>
+          </div>
+          <button class="btn primary" type="submit">Enviar mensagem</button>
         </form>
-        <div class="alt-contact">
-          ou envie um e‑mail para <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
-        </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer" role="contentinfo">
-    <div class="container footer-inner">
-      <p>© 2025 Stanley Mosso — Ciência de dados com propósito.</p>
-      <div class="footer-links">
-        <a href="#" aria-label="LinkedIn de Stanley">LinkedIn</a>
-        <a href="#" aria-label="GitHub de Stanley">GitHub</a>
-        <a href="#" aria-label="Twitter de Stanley">Twitter</a>
-      </div>
+  <footer class="footer">
+    <div class="wrap foot-grid">
+      <div>© 2025 Stanley Mosso</div>
+      <div class="socials"><a href="#">LinkedIn</a> <a href="#">GitHub</a></div>
     </div>
   </footer>
+
 </body>
 </html>
