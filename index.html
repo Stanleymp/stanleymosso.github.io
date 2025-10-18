@@ -5,53 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Stanley Mosso | Portfólio</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
 
   <header>
-    <h1>Stanley Mosso</h1>
+    <div class="logo">Stanley Mosso</div>
     <nav>
       <ul>
         <li><a href="#inicio">Início</a></li>
-        <li><a href="#sobre">Sobre mim</a></li>
-        <li><a href="#projetos">Projetos e estudos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- INÍCIO -->
-  <section id="inicio">
-    <img src="assets/img/perfil.jpg" alt="Foto de Stanley Mosso" />
-    <div class="texto">
-      <h2>Olá, sou Stanley Mosso</h2>
-      <p>
-        Profissional de Data Science e entusiasta em Inteligência Artificial. 
-        Busco transformar dados em estratégias e soluções que gerem impacto real. 
-        Este é o meu espaço pessoal para compartilhar ideias, estudos e projetos.
-      </p>
+  <section id="inicio" class="fade-in">
+    <div class="intro">
+      <h1>Olá, sou <span>Stanley Mosso</span></h1>
+      <p>Profissional de <strong>Data Science</strong> e entusiasta em <strong>Inteligência Artificial</strong>, apaixonado por transformar dados em decisões estratégicas e soluções inteligentes.</p>
+      <a href="#projetos" class="btn">Ver projetos</a>
+    </div>
+    <div class="foto">
+      <img src="assets/img/perfil.jpg" alt="Foto de Stanley Mosso" />
     </div>
   </section>
 
-  <!-- SOBRE -->
-  <section id="sobre">
+  <section id="sobre" class="fade-in">
     <h2>Sobre mim</h2>
     <p>
-      Tenho experiência com análise de dados, modelagem preditiva e desenvolvimento de soluções com foco em negócios. 
-      Minha jornada é marcada pela curiosidade e pela vontade de entender como a tecnologia pode resolver problemas reais. 
-      Ao longo do tempo, venho aprimorando minhas habilidades em Python, machine learning, visualização de dados e ferramentas de automação.
+      Tenho experiência com análise de dados, modelagem preditiva e desenvolvimento de soluções com foco em negócios.
+      Minha jornada é movida pela curiosidade e pela busca em entender como a tecnologia pode resolver problemas reais.
+      Ao longo do tempo, venho aprimorando minhas habilidades em Python, Machine Learning, visualização de dados e automação.
     </p>
   </section>
 
-  <!-- PROJETOS -->
-  <section id="projetos">
+  <section id="projetos" class="fade-in">
     <h2>Projetos e estudos</h2>
-    <p>Em breve adicionarei aqui meus projetos e estudos. Volte mais tarde para conferir! 🚀</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Modelo preditivo de vendas</h3>
+        <p>Modelo de regressão treinado com dados do Kaggle para previsão de preços de imóveis com alto R².</p>
+      </div>
+      <div class="card">
+        <h3>Dashboard de finanças pessoais</h3>
+        <p>Visualização interativa de gastos mensais com Python, Plotly e Streamlit.</p>
+      </div>
+      <div class="card">
+        <h3>Automação de relatórios</h3>
+        <p>Pipeline automático em Python para gerar relatórios diários e enviar via e-mail corporativo.</p>
+      </div>
+    </div>
   </section>
 
-  <!-- CONTATO -->
-  <section id="contato">
+  <section id="contato" class="fade-in">
     <h2>Contato</h2>
     <form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
       <input type="text" name="nome" placeholder="Seu nome" required />
